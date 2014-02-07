@@ -2,6 +2,7 @@
 ## zakres tematyczny CocoaTouk
 
    * architektura: MVC -> MVVM
+   * zarządzanie zależniościami: CocoaPods + struktura projektu: Schema, Target
    * struktura: Application, ApplicationDelegate, UIViewController, UIView
    * cykl życia aplikacji
    * widoki: UIView, UITableView (+TableVC), UIScrollView (+ScrollVC), UICollectionView, subview i superview

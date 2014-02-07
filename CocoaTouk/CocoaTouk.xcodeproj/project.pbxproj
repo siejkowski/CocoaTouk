@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D9DFB03E6043138B29D9B8 /* libPods-CocoaToukTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C5A30BD4CE4D5AB1B11383 /* libPods-CocoaToukTests.a */; };
+		466D002118A2F62C007E7BAC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 466D001F18A2F62C007E7BAC /* Model.xcdatamodeld */; };
+		466D002D18A3711E007E7BAC /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = 466D002C18A3711E007E7BAC /* Favourite.m */; };
+		75A25A1DABBB40FBA74C4F2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6FEB4D339743EDAC9D1B51 /* libPods.a */; };
+		79000174762077000EF7D967 /* NSDictionary+Appendable.m in Sources */ = {isa = PBXBuildFile; fileRef = 790003B3AE695B07627A9B3E /* NSDictionary+Appendable.m */; };
+		7900019EAF5E515123836AD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790007102A52B85842416ED1 /* UIKit.framework */; };
+		790001FC1BD134E64A2CC925 /* CocoaToukTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 790003F5823F1FE398A514BA /* CocoaToukTests.m */; };
+		790002152C44418A3745F477 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7900011423B8D58ECD2DC6D4 /* Main_iPhone.storyboard */; };
+		7900021E609B39B94C9AA12E /* FavouritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000ED4C284F1AED8D86CEE /* FavouritesViewController.m */; };
+		790002EF2378F8EB79B8E9F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790008FADAA9A734DA605E0F /* Foundation.framework */; };
+		7900044204E13781C43CBE7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79000E789BE4D106421C59F1 /* InfoPlist.strings */; };
+		79000584AC09A9CFAC15BC90 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000D538FC29675206D6385 /* SearchViewController.m */; };
+		7900059F7BE64F23CC0DAC9D /* RootViewControllersProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 790005EA1CFDCA7E86942D3B /* RootViewControllersProvider.m */; };
+		790005F3A46B09F8ED1AE9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790003D07F000D606EA75E33 /* AppDelegate.m */; };
+		790006A617FA2D9FC4A966CE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79000A8EE4E38AD317874D5F /* XCTest.framework */; };
+		7900074B363F435FB62F53CC /* FavouritesDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 790009ACFD377843D596AD1C /* FavouritesDataSource.m */; };
+		7900074C81688CEFEDB5CEBA /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000003DE00035E810F632B /* NetworkManager.m */; };
+		790007B86454577352A526BF /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000C8EB0FBF6A08BC1B370 /* ResultViewController.m */; };
+		790007D536D39632F08A7469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790008FADAA9A734DA605E0F /* Foundation.framework */; };
+		790008449AC6A9BCD0E22834 /* MiscViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000F7B382391A57BCD5167 /* MiscViewController.m */; };
+		79000869A857899FDE9202EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790007C852EC517EA41BEC99 /* InfoPlist.strings */; };
+		79000974A6F107FB52DD32DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790007102A52B85842416ED1 /* UIKit.framework */; };
+		79000A5472F1A53FAED88139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000922999793DE7887398D /* main.m */; };
+		79000AC08DF4E3932E52A624 /* SearchDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 79000F7A525F4B3084434F64 /* SearchDataSource.m */; };
+		79000B689063F09FF1B86427 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790003EE837659C69515C8C4 /* Main_iPad.storyboard */; };
+		79000BE233BFD2E548DE81BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79000DF2EE25159BAC1E5864 /* CoreGraphics.framework */; };
+		79000D26A46115B6F2B33F0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79000979CC0247B157B1472F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790003AFC63C83B525088358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 790004C0FCC996535D28A35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79000327D690E8589915C0B9;
+			remoteInfo = CocoaTouk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466D002018A2F62C007E7BAC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		466D002B18A3711E007E7BAC /* Favourite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Favourite.h; sourceTree = "<group>"; };
+		466D002C18A3711E007E7BAC /* Favourite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Favourite.m; sourceTree = "<group>"; };
+		5B6FEB4D339743EDAC9D1B51 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C56FF79AEBC483E83828644 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		79000003DE00035E810F632B /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7900005C1021553BD6D4F942 /* SearchDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDataSource.h; sourceTree = "<group>"; };
+		790000FE59ED53E2AD2B1E97 /* CocoaTouk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaTouk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790001BEDB568EEB7FB00416 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		7900020E74633C6F9048C6E3 /* NSDictionary+Appendable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Appendable.h"; sourceTree = "<group>"; };
+		79000264DC3CC5AD3A1E1A11 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7900028EF23438B33C255196 /* FavouritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesViewController.h; sourceTree = "<group>"; };
+		790002931D49D83BA1836242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		790003361F06688E9D815CEC /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		790003B3AE695B07627A9B3E /* NSDictionary+Appendable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Appendable.m"; sourceTree = "<group>"; };
+		790003D07F000D606EA75E33 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		790003DDB11B91E78E4E0F4B /* RootViewControllersProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewControllersProvider.h; sourceTree = "<group>"; };
+		790003F5823F1FE398A514BA /* CocoaToukTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaToukTests.m; sourceTree = "<group>"; };
+		79000447CDBBB82812C8F824 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79000518E09134D624DC6AF6 /* CocoaTouk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; path = "CocoaTouk-Info.plist"; sourceTree = "<group>"; };
+		790005EA1CFDCA7E86942D3B /* RootViewControllersProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewControllersProvider.m; sourceTree = "<group>"; };
+		790007102A52B85842416ED1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79000832B30D749F9F36F476 /* CocoaToukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaToukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		790008FADAA9A734DA605E0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79000922999793DE7887398D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79000979CC0247B157B1472F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		790009ACFD377843D596AD1C /* FavouritesDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesDataSource.m; sourceTree = "<group>"; };
+		79000A422914B5A32117453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		79000A8EE4E38AD317874D5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79000BA37F09F4396BEA8CBC /* CocoaTouk-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaTouk-Prefix.pch"; sourceTree = "<group>"; };
+		79000BFD678A20943A59BE26 /* MiscViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscViewController.h; sourceTree = "<group>"; };
+		79000C41E272D551BA248F1A /* CocoaToukTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CocoaToukTests-Info.plist"; sourceTree = "<group>"; };
+		79000C8EB0FBF6A08BC1B370 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		79000D41992B316C5C9319D4 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		79000D538FC29675206D6385 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		79000DF2EE25159BAC1E5864 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79000EB1D1ACD8528383BD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79000ED4C284F1AED8D86CEE /* FavouritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesViewController.m; sourceTree = "<group>"; };
+		79000F6152C220DA62DF9C19 /* FavouritesDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesDataSource.h; sourceTree = "<group>"; };
+		79000F7A525F4B3084434F64 /* SearchDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDataSource.m; sourceTree = "<group>"; };
+		79000F7B382391A57BCD5167 /* MiscViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiscViewController.m; sourceTree = "<group>"; };
+		91C5A30BD4CE4D5AB1B11383 /* libPods-CocoaToukTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CocoaToukTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B0AC2EEBB24C8083067E96 /* Pods-CocoaToukTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaToukTests.xcconfig"; path = "Pods/Pods-CocoaToukTests.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79000CD4B2A66545E6611713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790002EF2378F8EB79B8E9F4 /* Foundation.framework in Frameworks */,
+				79000BE233BFD2E548DE81BF /* CoreGraphics.framework in Frameworks */,
+				7900019EAF5E515123836AD2 /* UIKit.framework in Frameworks */,
+				75A25A1DABBB40FBA74C4F2F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79000F5017CCF0A26CC047E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790006A617FA2D9FC4A966CE /* XCTest.framework in Frameworks */,
+				790007D536D39632F08A7469 /* Foundation.framework in Frameworks */,
+				79000974A6F107FB52DD32DE /* UIKit.framework in Frameworks */,
+				24D9DFB03E6043138B29D9B8 /* libPods-CocoaToukTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7900039509E6E46269C0B0C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79000C41E272D551BA248F1A /* CocoaToukTests-Info.plist */,
+				79000E789BE4D106421C59F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		790007794B9BED434E9B4B40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79000518E09134D624DC6AF6 /* CocoaTouk-Info.plist */,
+				790007C852EC517EA41BEC99 /* InfoPlist.strings */,
+				79000922999793DE7887398D /* main.m */,
+				79000BA37F09F4396BEA8CBC /* CocoaTouk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79000B611FD2F5F87F16FF19 /* CocoaTouk */ = {
+			isa = PBXGroup;
+			children = (
+				790007794B9BED434E9B4B40 /* Supporting Files */,
+				79000447CDBBB82812C8F824 /* AppDelegate.h */,
+				790003D07F000D606EA75E33 /* AppDelegate.m */,
+				79000979CC0247B157B1472F /* Images.xcassets */,
+				7900011423B8D58ECD2DC6D4 /* Main_iPhone.storyboard */,
+				790003EE837659C69515C8C4 /* Main_iPad.storyboard */,
+				79000C2526F2C7A3A3F9A548 /* View */,
+				79000BE75049D9E7D500FA32 /* ViewModel */,
+				79000E6CE6D89032025779A8 /* Model */,
+				790003B3AE695B07627A9B3E /* NSDictionary+Appendable.m */,
+				7900020E74633C6F9048C6E3 /* NSDictionary+Appendable.h */,
+			);
+			path = CocoaTouk;
+			sourceTree = "<group>";
+		};
+		79000BE75049D9E7D500FA32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				79000003DE00035E810F632B /* NetworkManager.m */,
+				79000D41992B316C5C9319D4 /* NetworkManager.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79000BE87C17375D402E8747 /* CocoaToukTests */ = {
+			isa = PBXGroup;
+			children = (
+				7900039509E6E46269C0B0C4 /* Supporting Files */,
+				790003F5823F1FE398A514BA /* CocoaToukTests.m */,
+			);
+			path = CocoaToukTests;
+			sourceTree = "<group>";
+		};
+		79000C2526F2C7A3A3F9A548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79000F7B382391A57BCD5167 /* MiscViewController.m */,
+				79000BFD678A20943A59BE26 /* MiscViewController.h */,
+				790003DDB11B91E78E4E0F4B /* RootViewControllersProvider.h */,
+				790001BEDB568EEB7FB00416 /* SearchViewController.h */,
+				790005EA1CFDCA7E86942D3B /* RootViewControllersProvider.m */,
+				79000ED4C284F1AED8D86CEE /* FavouritesViewController.m */,
+				7900028EF23438B33C255196 /* FavouritesViewController.h */,
+				79000D538FC29675206D6385 /* SearchViewController.m */,
+				79000C8EB0FBF6A08BC1B370 /* ResultViewController.m */,
+				790003361F06688E9D815CEC /* ResultViewController.h */,
+				79000F7A525F4B3084434F64 /* SearchDataSource.m */,
+				7900005C1021553BD6D4F942 /* SearchDataSource.h */,
+				790009ACFD377843D596AD1C /* FavouritesDataSource.m */,
+				79000F6152C220DA62DF9C19 /* FavouritesDataSource.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79000E1A2FA1B7E7D7B53B84 = {
+			isa = PBXGroup;
+			children = (
+				79000EF03CBBC4597652A09F /* Products */,
+				79000FFCDF9C10A42B535000 /* Frameworks */,
+				79000BE87C17375D402E8747 /* CocoaToukTests */,
+				6C56FF79AEBC483E83828644 /* Pods.xcconfig */,
+				B8B0AC2EEBB24C8083067E96 /* Pods-CocoaToukTests.xcconfig */,
+				79000B611FD2F5F87F16FF19 /* CocoaTouk */,
+			);
+			sourceTree = "<group>";
+		};
+		79000E6CE6D89032025779A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				466D001F18A2F62C007E7BAC /* Model.xcdatamodeld */,
+				466D002B18A3711E007E7BAC /* Favourite.h */,
+				466D002C18A3711E007E7BAC /* Favourite.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79000EF03CBBC4597652A09F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790000FE59ED53E2AD2B1E97 /* CocoaTouk.app */,
+				79000832B30D749F9F36F476 /* CocoaToukTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79000FFCDF9C10A42B535000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790008FADAA9A734DA605E0F /* Foundation.framework */,
+				79000DF2EE25159BAC1E5864 /* CoreGraphics.framework */,
+				790007102A52B85842416ED1 /* UIKit.framework */,
+				79000A8EE4E38AD317874D5F /* XCTest.framework */,
+				5B6FEB4D339743EDAC9D1B51 /* libPods.a */,
+				91C5A30BD4CE4D5AB1B11383 /* libPods-CocoaToukTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79000327D690E8589915C0B9 /* CocoaTouk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79000B2123592FC401D6B8DC /* Build configuration list for PBXNativeTarget "CocoaTouk" */;
+			buildPhases = (
+				06E0D88AA8564D8CA20511C3 /* Check Pods Manifest.lock */,
+				79000A94B890250850DEC354 /* Sources */,
+				79000CD4B2A66545E6611713 /* Frameworks */,
+				790005022C75FCB3AC747CA3 /* Resources */,
+				EC3D4FDC8C8944639ACB7D17 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaTouk;
+			productName = CocoaTouk;
+			productReference = 790000FE59ED53E2AD2B1E97 /* CocoaTouk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79000AB8FD402C0A198867E6 /* CocoaToukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79000ADB62C0A4F3BE353B2D /* Build configuration list for PBXNativeTarget "CocoaToukTests" */;
+			buildPhases = (
+				6752914EA5C64813A565D3C7 /* Check Pods Manifest.lock */,
+				790001798D114928559EBC58 /* Sources */,
+				79000F5017CCF0A26CC047E8 /* Frameworks */,
+				790006DF314D75D91B9423CD /* Resources */,
+				85C10946223C43E6BA79A83B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7900018B44CC85CCBCCB583B /* PBXTargetDependency */,
+			);
+			name = CocoaToukTests;
+			productName = CocoaToukTests;
+			productReference = 79000832B30D749F9F36F476 /* CocoaToukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790004C0FCC996535D28A35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Touk;
+			};
+			buildConfigurationList = 79000ED2AA81F280D75B6C7D /* Build configuration list for PBXProject "CocoaTouk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79000E1A2FA1B7E7D7B53B84;
+			productRefGroup = 79000EF03CBBC4597652A09F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79000327D690E8589915C0B9 /* CocoaTouk */,
+				79000AB8FD402C0A198867E6 /* CocoaToukTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790005022C75FCB3AC747CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79000869A857899FDE9202EB /* InfoPlist.strings in Resources */,
+				79000D26A46115B6F2B33F0A /* Images.xcassets in Resources */,
+				790002152C44418A3745F477 /* Main_iPhone.storyboard in Resources */,
+				79000B689063F09FF1B86427 /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790006DF314D75D91B9423CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7900044204E13781C43CBE7A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06E0D88AA8564D8CA20511C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6752914EA5C64813A565D3C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85C10946223C43E6BA79A83B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CocoaToukTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC3D4FDC8C8944639ACB7D17 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790001798D114928559EBC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790001FC1BD134E64A2CC925 /* CocoaToukTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79000A94B890250850DEC354 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79000A5472F1A53FAED88139 /* main.m in Sources */,
+				790005F3A46B09F8ED1AE9A7 /* AppDelegate.m in Sources */,
+				790008449AC6A9BCD0E22834 /* MiscViewController.m in Sources */,
+				7900059F7BE64F23CC0DAC9D /* RootViewControllersProvider.m in Sources */,
+				7900021E609B39B94C9AA12E /* FavouritesViewController.m in Sources */,
+				79000584AC09A9CFAC15BC90 /* SearchViewController.m in Sources */,
+				7900074C81688CEFEDB5CEBA /* NetworkManager.m in Sources */,
+				466D002D18A3711E007E7BAC /* Favourite.m in Sources */,
+				466D002118A2F62C007E7BAC /* Model.xcdatamodeld in Sources */,
+				790007B86454577352A526BF /* ResultViewController.m in Sources */,
+				79000AC08DF4E3932E52A624 /* SearchDataSource.m in Sources */,
+				79000174762077000EF7D967 /* NSDictionary+Appendable.m in Sources */,
+				7900074B363F435FB62F53CC /* FavouritesDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7900018B44CC85CCBCCB583B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79000327D690E8589915C0B9 /* CocoaTouk */;
+			targetProxy = 790003AFC63C83B525088358 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7900011423B8D58ECD2DC6D4 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790002931D49D83BA1836242 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		790003EE837659C69515C8C4 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79000A422914B5A32117453A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		790007C852EC517EA41BEC99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79000264DC3CC5AD3A1E1A11 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79000E789BE4D106421C59F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79000EB1D1ACD8528383BD7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790001FA2B799B54264858E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79000691D4A10EB1E52560C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C56FF79AEBC483E83828644 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouk/CocoaTouk-Prefix.pch";
+				INFOPLIST_FILE = "CocoaTouk/CocoaTouk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		790007114BA0E314DCFE227B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B0AC2EEBB24C8083067E96 /* Pods-CocoaToukTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouk/CocoaTouk-Prefix.pch";
+				INFOPLIST_FILE = "CocoaToukTests/CocoaToukTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		790009A3065DCF9A96D9EFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B0AC2EEBB24C8083067E96 /* Pods-CocoaToukTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouk/CocoaTouk-Prefix.pch";
+				INFOPLIST_FILE = "CocoaToukTests/CocoaToukTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79000AF59B8B29787E03698F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79000DE028A7EC9533BD5A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C56FF79AEBC483E83828644 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CocoaTouk/CocoaTouk-Prefix.pch";
+				INFOPLIST_FILE = "CocoaTouk/CocoaTouk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79000ADB62C0A4F3BE353B2D /* Build configuration list for PBXNativeTarget "CocoaToukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790007114BA0E314DCFE227B /* Release */,
+				790009A3065DCF9A96D9EFD6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79000B2123592FC401D6B8DC /* Build configuration list for PBXNativeTarget "CocoaTouk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79000DE028A7EC9533BD5A7F /* Release */,
+				79000691D4A10EB1E52560C3 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79000ED2AA81F280D75B6C7D /* Build configuration list for PBXProject "CocoaTouk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79000AF59B8B29787E03698F /* Release */,
+				790001FA2B799B54264858E5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		466D001F18A2F62C007E7BAC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				466D002018A2F62C007E7BAC /* Model.xcdatamodel */,
+			);
+			currentVersion = 466D002018A2F62C007E7BAC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 790004C0FCC996535D28A35F /* Project object */;
+}
